@@ -1,0 +1,112 @@
+
+  	.navbar {
+  		margin-bottom: 0;
+  		padding-top: 10px;
+  		border-radius: 0;
+  		background-color:#fff;
+  		color: black;
+  		padding: 5%, 0;
+  		font-size: 1.2em;
+  		border: 0;
+  	}
+
+  	.navbar-brand{
+  		float:left;
+  		min-height: 55px;
+  		margin-top: -12px;
+  		margin-bottom: 8px;
+
+  	}
+
+  	.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover{
+  		color: fff;
+  		background-color: #00aeef;
+  		border-radius: 10px;
+  	}
+
+  	#myNavBar a:hover{
+  		color: black;
+
+  	}
+
+  	.navbar-inverse .navbar-nav li a{
+  		color: #6d6e71;
+  	}
+
+  	.navbar-header{
+  		padding-bottom: 10px;
+  	}
+
+  	.carousel-caption{
+  		top: 40%;
+  		transform: translateY(-50%);
+  		text-transform: uppercase;
+  	}
+
+  	.btn {
+  		font-size: 18px;
+  		color: white;
+  		padding: 12px 22px;
+  		background-color: #00aeef;
+  		border: 2px solid #fff;
+  	}
+
+  	#icon{
+  		max-width: 100px;
+  		margin: 5% auto;
+  	}
+
+  	.item img{
+  		width: 100%;
+  	}
+
+  	.navbar-toggle{
+  		background: #6d6e71;
+  	}
+
+  	.container{
+  		padding: 20px 10px;
+  	}
+
+  	.services{
+  		width: 300px;
+  	}
+
+  	.icons a{
+  		margin: 18px 5px;
+  	}
+
+  	footer{
+  		background: #00aeef;
+  	}
+
+  	.white-text{
+  		color: white;
+  	}
+
+  	@media (max-width: 1060px){
+  		.carousel-caption h1{
+  			font-size: 1.5em;
+  			margin-top: -20px;
+  			margin-bottom: -15px;
+  		}
+
+  		.services{
+  			width: 100%;
+  		}
+  	}
+
+  	@media (max-width: 610px){
+  		.carousel-caption h1{
+  			font-size: 1em;
+  			margin-top: -40px;
+  		}
+  		.btn{
+  			font-size: 12px;
+  			padding: 5px 5px;
+  		}
+
+  		#icon{
+  			max-width: 60px;
+  		}
+  	}
