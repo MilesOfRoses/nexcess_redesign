@@ -84,6 +84,16 @@
   		color: white;
   	}
 
+    @media (min-width: 1200px){
+      .navbar-brand img{
+        margin-left:70%;
+      }
+
+      .navbar{
+        margin-right: 8%;
+      }
+    }
+
   	@media (max-width: 1060px){
   		.carousel-caption h1{
   			font-size: 1.5em;
@@ -110,3 +120,4 @@
   			max-width: 60px;
   		}
   	}
+
